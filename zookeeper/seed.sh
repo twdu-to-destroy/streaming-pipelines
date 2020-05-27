@@ -27,7 +27,7 @@ $zk_command create /tw/stationDataSF/dataLocation hdfs://$hdfs_server/tw/rawData
 
 $zk_command create /tw/stationDataFR ''
 $zk_command create /tw/stationDataFR/kafkaBrokers $kafka_server
-$zk_command create /tw/stationDataFR/topic station_data_sf
+$zk_command create /tw/stationDataFR/topic station_data_fr
 $zk_command create /tw/stationDataFR/checkpointLocation hdfs://$hdfs_server/tw/rawData/stationDataFR/checkpoints
 $zk_command create /tw/stationDataFR/dataLocation hdfs://$hdfs_server/tw/rawData/stationDataFR/data
 
